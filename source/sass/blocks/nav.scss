@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 108px;
+  max-width: 650px;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 59px;
+}
+
+.nav__item {
+  &--current {
+    color: #b4977b;
+  }
+}
+
+.nav__basket {
+  display: flex;
+}
+
+.nav__basket-sup-icon {
+  position: relative;
+  top: -5px;
+  left: -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $black;
+}
+
+.nav__basket-quantity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  margin: auto;
+  width: 3px;
+  height: 7px;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 7px;
+  color: $white;
+}
