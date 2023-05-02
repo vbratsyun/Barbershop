@@ -3,13 +3,125 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="title" content="Kasmir — barbershop network">
+  <meta name="description" content="The Kasmir barbershop network is everything a man needs: an atmosphere of brutality, great company, drinks, professionalism and European traditions">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kasmir</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
-<body>
-  <p>Привет мир</p>
+<body class="page__body">
+  <header class="page-header">
+    <a class="logo" href="#">
+      <img class="logo__imag" src="img/logo.svg" width="93" height="36" alt="Kasmir website logo.">
+    </a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">Style Hair</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">Models</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">Shop</a>
+        </li>
+        <li class="nav__item">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="nav__basket">
+        <a href="#">Basket</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Welcome to the barbershop website</h1>
+    <section class="services">
+      <h2 class="visually-hidden">The main services of the berbershop Kasmir</h2>
+      <ul class="services__list">
+        <li class="services__item">
+          <h3 class="services__title">Lorem ipsum dolor sit amet!</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.</p>
+          <div>
+            <picture>
+              <source type="image/webp" srcset="img/hairstyle.webp, img/hairstyle@2x.webp 2x">
+              <img class="services__image" src="img/hairstyle.jpg" srcset="img/hairstyle@2x.jpg" width="517" height="800" alt="Сlassic style.">
+            </picture>
+
+            <p class="services__image-title">The Best Hair Style 2021</p>
+          </div>
+          <p class="services__number">01</p>
+        </li>
+        <li class="services__item">
+          <h3 class="services__title">Lorem ipsum!</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.</p>
+          <div>
+            <picture>
+              <source type="image/webp" srcset="img/hairstyle.webp, img/hairstyle@2x.webp 2x">
+              <img class="services__image" src="img/hairstyle.jpg" srcset="img/hairstyle@2x.jpg" width="517" height="800" alt="Retro style.">
+            </picture>
+            <p class="services__image-title">The Best Hair Style 2022</p>
+          </div>
+          <p class="services__number">02</p>
+        </li>
+        <li class="services__item">
+          <h3 class="services__title">Lorem ipsum!</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.</p>
+          <div>
+
+            <picture>
+              <source type="image/webp" srcset="img/hairstyle.webp, img/hairstyle@2x.webp 2x">
+              <img class="services__image" src="img/hairstyle.jpg" srcset="img/hairstyle@2x.jpg" width="517" height="800" alt="Aggressive style.">
+            </picture>
+            <p class="services__image-title">The Best Hair Style 2023</p>
+          </div>
+          <p class="services__number">03</p>
+        </li>
+      </ul>
+      <a class="services__button" href="#">
+        Shopping Now
+      </a>
+    </section>
+    <section class="pagination">
+      <h2 class="visually-hidden">Сhoose a service</h2>
+      <div class="pagination__pages">
+        <p class="pagination__number">01</p>
+        <span class="pagination__separator"></span>
+        <p class="pagination__number">06</p>
+      </div>
+      <div class="control">
+        <button class="control__button" type="button">
+          <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.29289 29.7071C7.68342 30.0976 8.31658 30.0976 8.70711 29.7071L15.0711 23.3431C15.4616 22.9526 15.4616 22.3195 15.0711 21.9289C14.6805 21.5384 14.0474 21.5384 13.6569 21.9289L8 27.5858L2.34315 21.9289C1.95262 21.5384 1.31946 21.5384 0.928932 21.9289C0.538408 22.3195 0.538408 22.9526 0.928932 23.3431L7.29289 29.7071ZM7 0L7 29H9L9 0L7 0Z" fill="#B4977B" />
+          </svg>
+          <span class="visually-hidden">Next service</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <h2 class="visually-hidden">Сontacts</h2>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="#">Facebook</a>
+      </li>
+      <li class="social-list__item">
+        <a href="#">Instagram</a>
+      </li>
+      <li class="social-list__item">
+        <a href="#">Twitter</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 
 </html>
