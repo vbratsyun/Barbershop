@@ -1,0 +1,13 @@
+.social-list {
+  display: flex;
+  max-width: 517px;
+  justify-content: space-evenly;
+  margin-left: 301px;
+}
+
+.social-list__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
