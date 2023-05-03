@@ -1,7 +1,30 @@
 .page-body {
-  padding: 0 106px 100px 101px;
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 1080px;
+  background: url("../../img/background-image.svg") no-repeat 1110px 188px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 293px;
+    height: 100%;
+    border: 2px solid #e5e5e5;
+  }
 }
 
 .page-body__page-header {
-  margin-bottom: 153px;
+  margin: 0 106px 153px 101px;
+}
+
+.page-body__page-main {
+  margin: 0 106px 0 101px;
+}
+
+.page-body__page-footer {
+  position: relative;
+  bottom: 21px;
+  margin: 0 106px 0 101px;
 }

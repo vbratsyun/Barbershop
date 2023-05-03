@@ -1,8 +1,8 @@
 .nav {
   display: flex;
   align-items: center;
-  column-gap: 108px;
-  max-width: 650px;
+  column-gap: 110px;
+  flex-wrap: wrap;
 }
 
 .nav__list {
@@ -13,7 +13,7 @@
 
 .nav__item {
   &--current {
-    color: #b4977b;
+    color: $brown;
   }
 }
 

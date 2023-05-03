@@ -1,14 +1,11 @@
 .page-main {
   flex-grow: 1;
   display: grid;
-  grid-template-columns: min-content 1fr;
-  column-gap: 281px;
+  grid-template-columns: 92px 1fr;
+  column-gap: 264px;
+  min-height: 100%;
 }
 
 .page-main__pagination {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 360px;
 }

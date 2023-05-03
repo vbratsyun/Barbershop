@@ -3,7 +3,7 @@
 }
 
 .services__item {
-  // position: absolute;
+  position: absolute;
   display: none;
 
   &--current {
@@ -47,30 +47,57 @@
 }
 
 .services__description {
-  max-width: 650px;
+  max-width: 642px;
+  max-height: 290px;
   line-height: 32px;
   color: rgba(5, 2, 21, 0.75);
+  padding-right: 25px;
   margin-bottom: 40px;
+  overflow-y: auto;
+}
+
+.services__description::-webkit-scrollbar {
+  width: 4px;
+}
+
+.services__description::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+.services__description::-webkit-scrollbar-thumb {
+  background-color: $brown;
+  border-radius: 4px;
+  height: 10px;
 }
 
 .services__number {
   position: absolute;
-  top: 676px;
-  right: 0;
+  top: 777px;
+  right: 5px;
   font-size: 200px;
   line-height: 240px;
+  font-weight: 600;
   color: $white;
-  -webkit-text-stroke: 1px #b4977b;
+  -webkit-text-stroke: 1px $brown;
 }
 
 .services__button {
-  position: absolute;
-  top: 576px;
-  left: 643px;
+  display: flex;
+  max-width: 178px;
   font-weight: 500;
   font-size: 18px;
-  background: #b4977b;
+  background: $brown;
   border-radius: 50px;
   color: $white;
-  padding: 14px 32px;
+  padding: 19px 32px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: #999fad;
+  }
+
+  &:active {
+    background-color: #c7722e;
+    color: $white;
+  }
 }
