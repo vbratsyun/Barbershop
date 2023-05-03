@@ -5,13 +5,10 @@
   font-size: 18px;
   line-height: 22px;
   color: $text-color;
+  background-color: $white;
 }
 
 .page__body {
-  display: flex;
-  flex-direction: column;
-  min-width: 1920px;
-  min-height: 100%;
-  margin: 0;
-  background-color: $white;
+  margin: 0 auto;
+  position: relative;
 }

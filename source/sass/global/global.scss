@@ -8,7 +8,6 @@ p {
 }
 
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -44,4 +43,14 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.link {
+  &:hover {
+    color: #999fad;
+  }
+
+  &:active {
+    color: #c7722e;
+  }
 }
