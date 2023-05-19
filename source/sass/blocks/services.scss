@@ -79,6 +79,7 @@
   font-weight: 600;
   color: $white;
   -webkit-text-stroke: 1px $brown;
+  z-index: -1;
 }
 
 .services__button {

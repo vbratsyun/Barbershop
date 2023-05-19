@@ -1,7 +1,8 @@
 .page-body {
   display: flex;
   flex-direction: column;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   height: 1080px;
   background: url("../../img/background-image.svg") no-repeat 1110px 188px;
 
@@ -14,11 +15,6 @@
     border: 2px solid #e5e5e5;
   }
 }
-
-.page-body__page-header {
-  margin: 0 106px 153px 101px;
-}
-
 .page-body__page-main {
   margin: 0 106px 0 101px;
 }
